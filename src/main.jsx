@@ -28,55 +28,15 @@ import Ranking from './pages/ranking/Ranking.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Login/>
-  },
-  {
-    path: "/quiz-contamination",
-    element: <QuizContamination/>
-  },
-  {
-    path: "/quiz-acidification",
-    element: <QuizAcidification/>
-  },
-  {
-    path: "/quiz",
-    element: <Quiz/>
-  },
-  {
-    path: "/inicio",
     element: <Home/>
   },
   {
     path: "/App",
     element: <App/>
   },
-  {
-    path: "/contaminacion-del-agua",
+    {
+    path: "/cienaga-santa-marta",
     element: <WaterPollution/>
-  },
-  {
-    path: "/acidificacion-del-oceano",
-    element: <Acidification/>
-  },
-  {
-    path: "/fauna",
-    element: <FaunaPage/>
-  },
-  {
-    path: "/flora",
-    element: <FloraPage/>
-  },
-  {
-    path: "/datos-curiosos",
-    element: <Curious/>
-  },
-  {
-    path: "/perfil",
-    element: <Profile/>
-  },
-  {
-    path: "/ranking",
-    element: <Ranking/>
   },
 ]);
 
